@@ -13,14 +13,14 @@
  */
 /*********************************************************************************************************/
 
-CKEDITOR.plugins.add('inserthtml',   
+CKEDITOR.plugins.add('inserthtml4x',   
   {    
-    icons: 'inserthtml',
+    icons: 'inserthtml4x',
     init: function( editor ) { 
-		editor.addCommand( 'inserthtml', new CKEDITOR.dialogCommand( 'inserthtmlDialog' ) );
-        editor.ui.addButton( 'inserthtml', {
+		editor.addCommand( 'inserthtml4x', new CKEDITOR.dialogCommand( 'inserthtmlDialog' ) );
+        editor.ui.addButton( 'inserthtml4x', {
             label: 'Insert HTML',
-            command: 'inserthtml',
+            command: 'inserthtml4x',
             toolbar: 'insert',
             icon : this.path + 'inserthtml.png'
         });
